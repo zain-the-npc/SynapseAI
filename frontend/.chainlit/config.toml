@@ -1,0 +1,43 @@
+[project]
+enable_auth = true
+allow_history = true
+session_timeout = 3600
+user_session_timeout = 1296000
+cache = false
+allow_origins = ["*"]
+
+[features]
+unsafe_allow_html = false
+latex = true
+user_message_markdown = true
+user_message_autoscroll = true
+assistant_message_autoscroll = true
+auto_tag_thread = true
+edit_message = true
+allow_thread_sharing = false
+favorites = false
+
+[features.spontaneous_file_upload]
+enabled = true
+accept = ["*/*"]
+max_files = 20
+max_size_mb = 500
+
+[features.audio]
+enabled = false
+
+[UI]
+name = "Paper-to-Brain AI"
+show_readme_as_default = true
+default_sidebar_state = "hidden" 
+confirm_new_chat = true
+cot = "full"
+alert_style = "classic"
+
+# PROFESSIONAL AUTH UI
+[UI.auth]
+    header = "Welcome to Paper-to-Brain"
+    footer = "New User? Fill in the details and click Sign In to create your account instantly."
+
+[meta]
+generated_by = "2.10.1"

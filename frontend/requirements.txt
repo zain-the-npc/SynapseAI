@@ -1,0 +1,6 @@
+chainlit
+requests
+supabase
+pypdf
+python-pptx
+python-docx
