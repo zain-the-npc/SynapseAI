@@ -3,4 +3,4 @@ requests
 supabase
 pypdf
 python-pptx
-python-docx
+python-docxpython-dotenv
