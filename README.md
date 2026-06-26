@@ -39,22 +39,7 @@ Two services talk to each other: a Chainlit chat UI (frontend) and a FastAPI ser
 
 This isn't deployed anywhere — it's meant to run locally. You'll need Python 3.10+, an OpenAI API key, and a Supabase project.
 
-```bash
-git clone https://github.com/zain-the-npc/SynapseAI.git
-cd SynapseAI
 
-# Backend
-cd backend
-pip install -r requirements.txt
-# create .env with OPENAI_API_KEY=your-key-here
-uvicorn main:app --reload --port 8000
-
-# Frontend (new terminal)
-cd frontend
-pip install -r requirements.txt
-# create .env with SUPABASE_URL, SUPABASE_KEY, API_URL=http://localhost:8000/chat
-chainlit run chainlit_app.py -w
-```
 
 Sign up with any email/password to start chatting.
 
