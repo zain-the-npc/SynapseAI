@@ -48,4 +48,4 @@ Sign up with any email/password to start chatting.
 - **No deployment** — built and run locally only, by design
 - **CORS is wide open** (`allow_origins=["*"]`) on the backend — fine for local use, would need tightening before any real deployment
 - **No automated tests** — this was a focused exam-week build, not a production app
-- **Single model** — currently hardcoded to `gpt-4o-mini`; not configurable via environment variable yet
+- **Single model** — currently hardcoded to `gpt-4o-mini`; not configurable via environment variable yet.
