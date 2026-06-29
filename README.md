@@ -41,7 +41,7 @@ This isn't deployed anywhere — it's meant to run locally. You'll need Python 3
 
 
 
-Sign up with any email/password to start chatting.
+Sign up with any email/password to start chatting.  
 
 ## Known limitations ⚠️
 
